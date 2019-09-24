@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6246a45fd31abadaeadcefcabc5785, type: 3}
+  m_Name: 'Biome #2'
+  m_EditorClassIdentifier: 
+  propDistributionScale: 10
+  terrains:
+  - row: 26
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - row: 27
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - row: 28
+    color: {r: 0, g: 0, b: 0, a: 0}
+  props:
+  - name: Red tree
+    prefab: {fileID: 3550023091936836895, guid: 3c8440f99695b2098b5e9e0da085b31b,
+      type: 3}
+    weight: 100
+  - name: Yellow tree
+    prefab: {fileID: 8302119850911108230, guid: 758933767144253b88054c7b81a3bb3d,
+      type: 3}
+    weight: 100
